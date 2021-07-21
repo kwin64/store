@@ -3,18 +3,39 @@ import React, {useEffect, useState} from 'react';
 
 function App() {
 
-    const [state, setState] = useState<Array<any>>([])
+    const [users, setUsers] = useState<Array<any>>([])
 
-    useEffect(() => {
+    let getUser = () => {
         axios.get('http://localhost:7542/users')
             .then(res =>
-                setState(res.data)
+                setUsers(res.data)
             )
+    }
+
+    useEffect(() => {
+        getUser()
     }, [])
+
+    let createUser = () => {
+        axios.post('http://localhost:7542/users')
+            .then(res =>
+                getUser()
+            )
+    }
+    let deleteUser = () => {
+        axios.delete('http://localhost:7542/users')
+            .then(res =>
+                getUser()
+            )
+    }
+
+    console.log(users)
 
     return (
         <div>
-            {state.map(a => <div>{a.name}</div>)}
+            <button onClick={createUser}>user</button>
+            <button onClick={deleteUser}>delete</button>
+            {users.map(a => <div>{a.name}</div>)}
         </div>
     );
 }
