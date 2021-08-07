@@ -1,5 +1,7 @@
 import React from 'react';
 import {Header} from './header/Header';
+import {PageSlider} from "./PageSlider/PageSlider";
+import './App.scss'
 
 function App() {
 
@@ -37,8 +39,9 @@ function App() {
     // }
 
     return (
-        <div>
+        <div className='container'>
             <Header/>
+            <PageSlider/>
         </div>
     );
 }
