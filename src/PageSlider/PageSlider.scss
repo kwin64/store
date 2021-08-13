@@ -1,19 +1,35 @@
 .slider {
   height: 500px;
 
+  .slide {
+    position: relative;
+  }
+
   .linkContent {
-    //border: 1px solid;
+    position: absolute;
+    opacity: 0.6;
+    left: 15%;
+    top: 80%;
 
     a {
       text-decoration: none;
-      background-color: cyan;
+      background-color: transparent;
+      border-radius: 5px;
+      padding: 2px;
+      transition: all 0.3s ease;
+      color: white;
+      border: 1px solid transparent;
+
+      &:hover {
+        background-color: #eae8e5;
+        color: #000000;
+      }
     }
   }
 
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
 
     /* Center slide text vertically */
     display: -webkit-box;
