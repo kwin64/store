@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.scss"],"names":[],"mappings":"AAEA,WACE,eAAA,CACA,gCAJK,CAKL,UAJa","file":"main.fb069e4f.chunk.css","sourcesContent":["$font: Helvetica, sans-serif;\r\n$primaryColor: black;\r\n.container {\r\n  background: aqua;\r\n  font-family: $font;\r\n  color: $primaryColor\r\n}"]}

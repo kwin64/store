@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/store/static/css/main.fb069e4f.chunk.css",
-    "main.js": "/store/static/js/main.205a156d.chunk.js",
-    "main.js.map": "/store/static/js/main.205a156d.chunk.js.map",
-    "runtime-main.js": "/store/static/js/runtime-main.2fceffb3.js",
-    "runtime-main.js.map": "/store/static/js/runtime-main.2fceffb3.js.map",
-    "static/js/2.5eaa1185.chunk.js": "/store/static/js/2.5eaa1185.chunk.js",
-    "static/js/2.5eaa1185.chunk.js.map": "/store/static/js/2.5eaa1185.chunk.js.map",
-    "static/js/3.5c25ba03.chunk.js": "/store/static/js/3.5c25ba03.chunk.js",
-    "static/js/3.5c25ba03.chunk.js.map": "/store/static/js/3.5c25ba03.chunk.js.map",
+    "main.css": "/store/static/css/main.81d323ae.chunk.css",
+    "main.js": "/store/static/js/main.b2a55777.chunk.js",
+    "main.js.map": "/store/static/js/main.b2a55777.chunk.js.map",
+    "runtime-main.js": "/store/static/js/runtime-main.ce171426.js",
+    "runtime-main.js.map": "/store/static/js/runtime-main.ce171426.js.map",
+    "static/css/2.04182036.chunk.css": "/store/static/css/2.04182036.chunk.css",
+    "static/js/2.7431d0b7.chunk.js": "/store/static/js/2.7431d0b7.chunk.js",
+    "static/js/2.7431d0b7.chunk.js.map": "/store/static/js/2.7431d0b7.chunk.js.map",
+    "static/js/3.6385b746.chunk.js": "/store/static/js/3.6385b746.chunk.js",
+    "static/js/3.6385b746.chunk.js.map": "/store/static/js/3.6385b746.chunk.js.map",
     "index.html": "/store/index.html",
-    "static/css/main.fb069e4f.chunk.css.map": "/store/static/css/main.fb069e4f.chunk.css.map",
-    "static/js/2.5eaa1185.chunk.js.LICENSE.txt": "/store/static/js/2.5eaa1185.chunk.js.LICENSE.txt"
+    "static/css/2.04182036.chunk.css.map": "/store/static/css/2.04182036.chunk.css.map",
+    "static/css/main.81d323ae.chunk.css.map": "/store/static/css/main.81d323ae.chunk.css.map",
+    "static/js/2.7431d0b7.chunk.js.LICENSE.txt": "/store/static/js/2.7431d0b7.chunk.js.LICENSE.txt",
+    "static/media/html.77aafc3e.jpg": "/store/static/media/html.77aafc3e.jpg",
+    "static/media/react.da790228.jpg": "/store/static/media/react.da790228.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2fceffb3.js",
-    "static/js/2.5eaa1185.chunk.js",
-    "static/css/main.fb069e4f.chunk.css",
-    "static/js/main.205a156d.chunk.js"
+    "static/js/runtime-main.ce171426.js",
+    "static/css/2.04182036.chunk.css",
+    "static/js/2.7431d0b7.chunk.js",
+    "static/css/main.81d323ae.chunk.css",
+    "static/js/main.b2a55777.chunk.js"
   ]
 }
