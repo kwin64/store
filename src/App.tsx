@@ -1,6 +1,6 @@
 import React from 'react';
-import {Header} from './header/Header';
-import {PageSlider} from "./PageSlider/PageSlider";
+import {Header} from './UI/header/Header';
+import {PageSlider} from "./UI/PageSlider/PageSlider";
 import './App.scss'
 
 function App() {
