@@ -1,5 +1,11 @@
 $font: Helvetica, sans-serif;
 $primaryColor: black;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   font-family: $font;
   color: $primaryColor

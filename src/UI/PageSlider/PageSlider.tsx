@@ -3,13 +3,10 @@ import './PageSlider.scss'
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css"
-import SwiperCore, {Pagination} from 'swiper/core';
-import js from '../common/slider/js.png'
-import html from '../common/slider/html.jpg'
-import react from '../common/slider/react.jpg'
+import kids from '../common/slider/kids.jpg'
+import woman from '../common/slider/women.jpg'
+import man from '../common/slider/man.jpg'
 import {Button} from '../common/button/Button';
-
-SwiperCore.use([Pagination]);
 
 export const PageSlider = () => {
     return (
@@ -20,8 +17,11 @@ export const PageSlider = () => {
 
                     <div className={'slide'}>
                         <SwiperSlide>
-                            <img src={html} alt=""/>
+                            <img src={woman} alt=""/>
                             <div className={'linkContent'}>
+                                <div>
+                                    Woman products
+                                </div>
                                 <Button className={'LearnMore'}
                                 >Learn more
                                 </Button>
@@ -31,8 +31,11 @@ export const PageSlider = () => {
 
                     <div className={'slide'}>
                         <SwiperSlide>
-                            <img src={js} alt=""/>
+                            <img src={man} alt=""/>
                             <div className={'linkContent'}>
+                                <div>
+                                    Man`s products
+                                </div>
                                 <Button className={'LearnMore'}
                                 >Learn more
                                 </Button>
@@ -42,8 +45,11 @@ export const PageSlider = () => {
 
                     <div className={'slide'}>
                         <SwiperSlide>
-                            <img src={react} alt=""/>
+                            <img src={kids} alt=""/>
                             <div className={'linkContent'}>
+                                <div>
+                                    Kids products
+                                </div>
                                 <Button className={'LearnMore'}
                                 >Learn more
                                 </Button>
