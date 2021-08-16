@@ -19,7 +19,7 @@ export const PageSlider = () => {
                         <SwiperSlide>
                             <img src={woman} alt=""/>
                             <div className={'linkContent'}>
-                                <div>
+                                <div className={'titleSlide'}>
                                     Woman products
                                 </div>
                                 <Button className={'LearnMore'}
@@ -33,7 +33,7 @@ export const PageSlider = () => {
                         <SwiperSlide>
                             <img src={man} alt=""/>
                             <div className={'linkContent'}>
-                                <div>
+                                <div className={'titleSlide'}>
                                     Man`s products
                                 </div>
                                 <Button className={'LearnMore'}
@@ -47,7 +47,7 @@ export const PageSlider = () => {
                         <SwiperSlide>
                             <img src={kids} alt=""/>
                             <div className={'linkContent'}>
-                                <div>
+                                <div className={'titleSlide'}>
                                     Kids products
                                 </div>
                                 <Button className={'LearnMore'}

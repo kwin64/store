@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 .slider {
   height: 90vh;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 
   .slide {
     position: relative;
@@ -8,7 +11,13 @@
 
   .linkContent {
     position: absolute;
-    //opacity: 0.6;
+
+    .titleSlide {
+      font-size: 50px;
+      margin: 10px;
+      color: #ffffff;
+      text-shadow: 1px 1px 0 hsl(22, 46%, 9%)
+    }
   }
 
   .swiper-slide {
