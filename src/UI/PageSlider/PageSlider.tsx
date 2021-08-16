@@ -7,6 +7,7 @@ import SwiperCore, {Pagination} from 'swiper/core';
 import js from '../common/slider/js.png'
 import html from '../common/slider/html.jpg'
 import react from '../common/slider/react.jpg'
+import {Button} from '../common/button/Button';
 
 SwiperCore.use([Pagination]);
 
@@ -21,7 +22,9 @@ export const PageSlider = () => {
                         <SwiperSlide>
                             <img src={html} alt=""/>
                             <div className={'linkContent'}>
-                                <a href="#">HTML/CSS</a>
+                                <Button className={'LearnMore'}
+                                >Learn more
+                                </Button>
                             </div>
                         </SwiperSlide>
                     </div>
@@ -30,7 +33,9 @@ export const PageSlider = () => {
                         <SwiperSlide>
                             <img src={js} alt=""/>
                             <div className={'linkContent'}>
-                                <a href="#">JavaScript</a>
+                                <Button className={'LearnMore'}
+                                >Learn more
+                                </Button>
                             </div>
                         </SwiperSlide>
                     </div>
@@ -39,11 +44,12 @@ export const PageSlider = () => {
                         <SwiperSlide>
                             <img src={react} alt=""/>
                             <div className={'linkContent'}>
-                                <a href="#">ReactJS</a>
+                                <Button className={'LearnMore'}
+                                >Learn more
+                                </Button>
                             </div>
                         </SwiperSlide>
                     </div>
-
                 </div>
             </Swiper>
         </div>

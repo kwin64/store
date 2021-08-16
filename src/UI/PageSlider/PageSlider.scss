@@ -1,5 +1,6 @@
 .slider {
-  height: 500px;
+  height: 90vh;
+  border: 1px solid;
 
   .slide {
     position: relative;
@@ -7,24 +8,9 @@
 
   .linkContent {
     position: absolute;
-    opacity: 0.6;
+    //opacity: 0.6;
     left: 33%;
-    top: 80%;
-
-    a {
-      text-decoration: none;
-      background-color: transparent;
-      border-radius: 5px;
-      padding: 2px;
-      transition: all 0.3s ease;
-      color: white;
-      border: 1px solid transparent;
-
-      &:hover {
-        background-color: #eae8e5;
-        color: #000000;
-      }
-    }
+    top: 74%;
   }
 
   .swiper-slide {
