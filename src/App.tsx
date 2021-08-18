@@ -1,5 +1,4 @@
 import React from 'react';
-import {Header} from './UI/header/Header';
 import {PageSlider} from "./UI/PageSlider/PageSlider";
 import './App.scss'
 

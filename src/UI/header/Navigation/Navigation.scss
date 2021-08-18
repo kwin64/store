@@ -3,20 +3,16 @@
 $textNav: #ffffff;
 
 .navigation {
-  border: 1px solid red;
+  display: flex;
   position: absolute;
   z-index: 2;
-  margin: 10px;
-  display: flex;
-  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
   text-shadow: 1px 1px 0 hsl(22, 46%, 9%);
-  justify-content: start;
-  padding: 10px;
-  width: auto;
-  left: auto;
-  right: auto;
+  width: 97.8%;
+  margin: 10px;
+  justify-content: space-between;
 
   .initialPage {
     cursor: pointer;
@@ -29,7 +25,7 @@ $textNav: #ffffff;
   }
 
   .menu {
-    margin-left: 50px;
+    margin-left: -600px;
     border: 1px solid yellow;
 
     a {
@@ -39,7 +35,7 @@ $textNav: #ffffff;
       transition: 0.1s;
 
       &:hover {
-        color: #825a5a;
+        color: #af7777;
       }
     }
   }
