@@ -25,15 +25,15 @@ $textNav: #ffffff;
   }
 
   .menu {
-    margin-left: -600px;
-    position: relative;
-    display: inline-block;
+    //margin-left: -600px;
+    //position: relative;
+    display: flex;
 
 
     a {
       text-decoration: none;
       color: $textNav;
-      padding: 20px;
+      //padding: 20px;
       transition: 0.1s;
 
       &:hover {
